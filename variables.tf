@@ -4,12 +4,6 @@ variable "env" {
   default     = "dev"
 }
 
-variable "aws_account_id" {
-  type        = string
-  description = "Eg. 123456789012"
-  default     = "account id here"
-}
-
 variable "region" {
   type        = string
   description = "AWS region"

@@ -4,15 +4,27 @@ An AWS infrastructure deployment example using Terraform. Excludes load balancer
 
 ## Usage
 
-Configure the AWS CLI with your credentials and run:
+Configure the AWS CLI with your credentials.
+
+The `terraform init` command initializes a working directory containing Terraform configuration files.
 
 ```
 terraform init
+```
+
+The `terraform plan` command creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+
+```
 terraform plan
+```
+
+The `terraform apply` command executes the actions proposed in a Terraform plan.
+
+```
 terraform apply
 ```
 
-to destroy everything, run:
+The `terraform destroy` command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
 
 ```
 terraform destroy

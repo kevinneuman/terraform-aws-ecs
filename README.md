@@ -7,12 +7,8 @@ An AWS infrastructure deployment example using Terraform. Excludes load balancer
 Configure the AWS CLI with your credentials and run:
 
 ```
+terraform init
 terraform plan
-```
-
-and
-
-```
 terraform apply
 ```
 
